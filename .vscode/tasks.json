@@ -1,0 +1,46 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [
+		{
+			// The GNU Make is required
+			"label": "Build",
+			"type": "shell",
+			"windows": {
+				"command": "make",
+				"args": [
+					"-C",
+					"'${workspaceFolder}'"
+				]
+			},
+			"problemMatcher": []
+		},
+		{
+			// The OpenOCD is reuqired
+			"label": "Flash",
+			"type": "shell",
+			"windows": {
+				"command": "cd '${workspaceFolder}'; D:/Apps/OpenOCD-20170821/bin/OpenOCD.exe",
+				"args": [
+					"-f",
+					"'${workspaceFolder}\\openocd-flash.cfg'"
+				]
+			},
+			"problemMatcher": []
+		},
+		{
+			// The OpenOCD is reuqired
+			"label": "GDB Server",
+			"type": "shell",
+			"windows": {
+				"command": "cd '${workspaceFolder}'; D:/Apps/OpenOCD-20170821/bin/OpenOCD.exe",
+				"args": [
+					"-f",
+					"'${workspaceFolder}\\openocd-gdbserver.cfg'"
+				]
+			},
+			"problemMatcher": []
+		}
+	]
+}

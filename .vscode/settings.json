@@ -1,0 +1,16 @@
+{
+	"terminal.integrated.shell.windows": "D:\\Apps\\Cygwin64\\bin\\bash.exe",
+	"terminal.integrated.shellArgs.windows": [
+		"--login",
+		"-i"
+	],
+	"files.associations": {
+		"*.qss": "css",
+		"stm32f1xx_hal.h": "c",
+		"stm32f1xx.h": "c",
+		"stm32f103xb.h": "c",
+		"stdint.h": "c",
+		"cstdint": "c",
+		"_default_types.h": "c"
+	}
+}

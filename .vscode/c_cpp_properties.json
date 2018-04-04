@@ -1,0 +1,97 @@
+{
+	"configurations": [
+		{
+			"name": "Mac",
+			"includePath": [
+				"/usr/include",
+				"/usr/local/include",
+				"${workspaceFolder}"
+			],
+			"defines": [],
+			"intelliSenseMode": "clang-x64",
+			"browse": {
+				"path": [
+					"/usr/include",
+					"/usr/local/include",
+					"${workspaceFolder}"
+				],
+				"limitSymbolsToIncludedHeaders": true,
+				"databaseFilename": ""
+			},
+			"macFrameworkPath": [
+				"/System/Library/Frameworks",
+				"/Library/Frameworks"
+			]
+		},
+		{
+			"name": "Linux",
+			"includePath": [
+				"/usr/include",
+				"/usr/local/include",
+				"${workspaceFolder}"
+			],
+			"defines": [],
+			"intelliSenseMode": "clang-x64",
+			"browse": {
+				"path": [
+					"/usr/include",
+					"/usr/local/include",
+					"${workspaceFolder}"
+				],
+				"limitSymbolsToIncludedHeaders": true,
+				"databaseFilename": ""
+			}
+		},
+		{
+			"name": "Win32",
+			"includePath": [
+				"${workspaceFolder}",
+				"${workspaceFolder}/Inc",
+				"${workspaceFolder}/Drivers/CMSIS/include",
+				"${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F1xx/include",
+				"${workspaceFolder}/Drivers/STM32F1xx_HAL_Driver/Inc",
+				"D:/Apps/gcc-arm-none-eabi-7-2017-q4-major-win32/lib/gcc/arm-none-eabi/7.2.1/include",
+				"D:/Apps/gcc-arm-none-eabi-7-2017-q4-major-win32/lib/gcc/arm-none-eabi/7.2.1/include-fixed",
+				"D:/Apps/gcc-arm-none-eabi-7-2017-q4-major-win32/arm-none-eabi/include",
+				"D:/Apps/gcc-arm-none-eabi-7-2017-q4-major-win32/arm-none-eabi/include/c++/7.2.1"
+			],
+			"defines": [
+				"__GNUC__=7",
+				"__GNUC_MINOR__=2",
+				"__STDC__=1",
+				"__STDC_VERSION__=201112L",
+				"__INT8_TYPE__=signed char",
+				"__INT16_TYPE__=short int",
+				"__INT32_TYPE__=long int",
+				"__UINT8_TYPE__=unsigned char",
+				"__UINT16_TYPE__=short unsigned int",
+				"__UINT32_TYPE__=long unsigned int",
+				"__arm__=1",
+				"__thumb__=1",
+				"__thumb2__=1",
+				"USE_HAL_DRIVER",
+				"STM32F103xB"
+			],
+			"intelliSenseMode": "clang-x64",
+			"browse": {
+				"path": [
+					"${workspaceFolder}",
+					"${workspaceFolder}/Inc",
+					"${workspaceFolder}/Drivers/CMSIS/include",
+					"${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F1xx/include",
+					"${workspaceFolder}/Drivers/STM32F1xx_HAL_Driver/Inc",
+					"D:/Apps/gcc-arm-none-eabi-7-2017-q4-major-win32/lib/gcc/arm-none-eabi/7.2.1/include",
+					"D:/Apps/gcc-arm-none-eabi-7-2017-q4-major-win32/lib/gcc/arm-none-eabi/7.2.1/include-fixed",
+					"D:/Apps/gcc-arm-none-eabi-7-2017-q4-major-win32/arm-none-eabi/include",
+					"D:/Apps/gcc-arm-none-eabi-7-2017-q4-major-win32/arm-none-eabi/include/c++/7.2.1"
+				],
+				"limitSymbolsToIncludedHeaders": true,
+				"databaseFilename": ""
+			},
+			"cStandard": "c11",
+			"cppStandard": "c++14",
+			"forcedInclude": [ "${workspaceFolder}/Inc/gcc-arm-prefdef.h" ]
+		}
+	],
+	"version": 3
+}
